@@ -1,0 +1,29 @@
+<!-- App Ads Configuration
+This file is reserved for future app advertising integrations.
+
+Supported ad networks:
+- Google Ads (Google AdSense for mobile)
+- Facebook Audience Network
+- Unity Ads
+- AppLovin
+- IronSource
+
+To enable ads, add ad scripts here following platform-specific guidelines.
+Each ad network requires:
+1. Publisher ID
+2. App/Ad Unit ID
+3. Platform configuration
+
+Ensure all ads comply with:
+- Google Play Store policies
+- Apple App Store policies
+- User privacy requirements (GDPR, CCPA, etc.)
+- Age-appropriate content guidelines
+
+Documentation:
+- Google Ads: https://admob.google.com/
+- Facebook: https://developers.facebook.com/docs/audience-network
+- Unity Ads: https://unity.com/products/unity-ads
+- AppLovin: https://www.applovin.com/
+- IronSource: https://www.ironsrc.com/
+-->

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our Team - Meet the experienced professionals at Zhigao Fanke, featuring experts from Microsoft and IBM">
+    <meta name="keywords" content="team, developers, designers, mobile experts, technology professionals">
+    <title>Team - Zhigao Fanke</title>
+    <link rel="canonical" href="https://www.zhigaotech.com/pages/team.html">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .team-member {
+            background-color: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+        }
+
+        .member-avatar {
+            width: 100%;
+            height: 300px;
+            background: linear-gradient(135deg, #1f7fb8 0%, #0d47a1 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .member-avatar svg {
+            width: 120px;
+            height: 120px;
+        }
+
+        .member-info {
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .member-info h3 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+            color: #212121;
+        }
+
+        .member-position {
+            color: #1f7fb8;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .member-experience {
+            color: #666666;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .member-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background-color: #e3f2fd;
+            color: #1f7fb8;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .department-section {
+            margin-bottom: 80px;
+        }
+
+        .department-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #1f7fb8;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #1f7fb8;
+            display: inline-block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header id="navbar" class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="../index.html">
+                    <svg class="logo-icon" viewBox="0 0 40 40" width="40" height="40">
+                        <rect width="40" height="40" rx="8" fill="#1f7fb8"/>
+                        <text x="20" y="26" font-size="20" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">ZF</text>
+                    </svg>
+                    <span class="logo-text">Zhigao Fanke</span>
+                </a>
+            </div>
+            <nav class="navbar-menu" id="navbarMenu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="team.html" class="nav-link active">Team</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 50vh;">
+        <div class="hero-content">
+            <h1>Our Team</h1>
+            <p>Experienced professionals driving innovation in mobile technology</p>
+        </div>
+        <div class="hero-bg">
+            <svg viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid slice" class="hero-svg">
+                <defs>
+                    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#1f7fb8;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <rect width="1200" height="300" fill="url(#grad3)"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Team Content -->
+    <section style="padding: 80px 0;">
+        <div class="container">
+            <!-- Research & Development Department -->
+            <div class="department-section">
+                <h2 class="department-title">Research & Development Center</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="35" r="20" fill="rgba(255,255,255,0.9)"/>
+                                <path d="M30 65 Q30 55, 50 55 Q70 55, 70 65 L70 90 L30 90 Z" fill="rgba(255,255,255,0.9)"/>
+                            </svg>
+                        </div>
+                        <div class="member-info">
+                            <h3>Senior Development Lead</h3>
+                            <p class="member-position">10+ years experience</p>
+                            <p class="member-experience">Former Microsoft Senior Engineer</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">iOS</span>
+                                <span class="skill-tag">Android</span>
+                                <span class="skill-tag">Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="35" r="20" fill="rgba(255,255,255,0.9)"/>
+                                <path d="M30 65 Q30 55, 50 55 Q70 55, 70 65 L70 90 L30 90 Z" fill="rgba(255,255,255,0.9)"/>
+                            </svg>
+                        </div>
+                        <div class="member-info">
+                            <h3>Game Engine Specialist</h3>
+                            <p class="member-position">8+ years experience</p>
+                            <p class="member-experience">Ex-IBM Game Development</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Unity</span>
+                                <span class="skill-tag">Unreal</span>
+                                <span class="skill-tag">Graphics</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="35" r="20" fill="rgba(255,255,255,0.9)"/>
+                                <path d="M30 65 Q30 55, 50 55 Q70 55, 70 65 L70 90 L30 90 Z" fill="rgba(255,255,255,0.9)"/>
+                            </svg>
+                        </div>
+                        <div class="member-info">
+                            <h3>Backend Architect</h3>
+                            <p class="member-position">9+ years experience</p>
+                            <p class="member-experience">Cloud Infrastructure Expert</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Cloud</span>
+                                <span class="skill-tag">Databases</span>
+                                <span class="skill-tag">DevOps</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Operations & Management Department -->
+            <div class="department-section">
+                <h2 class="department-title">Operations & Management Center</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="35" r="20" fill="rgba(255,255,255,0.9)"/>
+                                <path d="M30 65 Q30 55, 50 55 Q70 55, 70 65 L70 90 L30 90 Z" fill="rgba(255,255,255,0.9)"/>
+                            </svg>
+                        </div>
+                        <div class="member-info">
+                            <h3>Operations Director</h3>
+                            <p class="member-position">12+ years experience</p>
+                            <p class="member-experience">Strategic Operations Management</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Strategy</span>
+                                <span class="skill-tag">Analytics</span>
+                                <span class="skill-tag">Growth</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="35" r="20" fill="rgba(255,255,255,0.9)"/>
+                                <path d="M30 65 Q30 55, 50 55 Q70 55, 70 65 L70 90 L30 90 Z" fill="rgba(255,255,255,0.9)"/>
+                            </svg>
+                        </div>
+                        <div class="member-info">
+                            <h3>Product Manager</h3>
+                            <p class="member-position">7+ years experience</p>
+                            <p class="member-experience">Mobile Product Development</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Product</span>
+                                <span class="skill-tag">UX</span>
+                                <span class="skill-tag">Marketing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="35" r="20" fill="rgba(255,255,255,0.9)"/>
+                                <path d="M30 65 Q30 55, 50 55 Q70 55, 70 65 L70 90 L30 90 Z" fill="rgba(255,255,255,0.9)"/>
+                            </svg>
+                        </div>
+                        <div class="member-info">
+                            <h3>QA Manager</h3>
+                            <p class="member-position">8+ years experience</p>
+                            <p class="member-experience">Quality Assurance Lead</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Testing</span>
+                                <span class="skill-tag">Automation</span>
+                                <span class="skill-tag">Quality</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business & Partnerships Department -->
+            <div class="department-section">
+                <h2 class="department-title">Business & Partnerships Center</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="35" r="20" fill="rgba(255,255,255,0.9)"/>
+                                <path d="M30 65 Q30 55, 50 55 Q70 55, 70 65 L70 90 L30 90 Z" fill="rgba(255,255,255,0.9)"/>
+                            </svg>
+                        </div>
+                        <div class="member-info">
+                            <h3>Business Development</h3>
+                            <p class="member-position">10+ years experience</p>
+                            <p class="member-experience">International Partnerships</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Sales</span>
+                                <span class="skill-tag">Partnerships</span>
+                                <span class="skill-tag">B2B</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="35" r="20" fill="rgba(255,255,255,0.9)"/>
+                                <path d="M30 65 Q30 55, 50 55 Q70 55, 70 65 L70 90 L30 90 Z" fill="rgba(255,255,255,0.9)"/>
+                            </svg>
+                        </div>
+                        <div class="member-info">
+                            <h3>Customer Success</h3>
+                            <p class="member-position">6+ years experience</p>
+                            <p class="member-experience">Client Relations Specialist</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Support</span>
+                                <span class="skill-tag">Communication</span>
+                                <span class="skill-tag">CRM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member">
+                        <div class="member-avatar">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="35" r="20" fill="rgba(255,255,255,0.9)"/>
+                                <path d="M30 65 Q30 55, 50 55 Q70 55, 70 65 L70 90 L30 90 Z" fill="rgba(255,255,255,0.9)"/>
+                            </svg>
+                        </div>
+                        <div class="member-info">
+                            <h3>Marketing Lead</h3>
+                            <p class="member-position">7+ years experience</p>
+                            <p class="member-experience">Digital Marketing Specialist</p>
+                            <div class="member-skills">
+                                <span class="skill-tag">Marketing</span>
+                                <span class="skill-tag">Analytics</span>
+                                <span class="skill-tag">Growth</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Culture Section -->
+    <section style="padding: 80px 0; background-color: #f5f7fa;">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 60px;">Our Culture</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <svg viewBox="0 0 100 100" class="feature-icon" style="width: 80px; height: 80px;">
+                        <rect width="100" height="100" rx="20" fill="#e3f2fd"/>
+                        <path d="M30 40 Q30 25, 50 25 Q70 25, 70 40 M35 50 L65 50 M35 60 L65 60 M35 70 L65 70" stroke="#1f7fb8" stroke-width="2" stroke-linecap="round" fill="none"/>
+                    </svg>
+                    <h3>Innovation First</h3>
+                    <p>We encourage creative thinking and cutting-edge solutions in everything we do</p>
+                </div>
+                <div class="feature-card">
+                    <svg viewBox="0 0 100 100" class="feature-icon" style="width: 80px; height: 80px;">
+                        <rect width="100" height="100" rx="20" fill="#f3e5f5"/>
+                        <circle cx="50" cy="50" r="4" fill="#7b1fa2"/>
+                        <circle cx="30" cy="30" r="4" fill="#7b1fa2"/>
+                        <circle cx="70" cy="30" r="4" fill="#7b1fa2"/>
+                        <circle cx="30" cy="70" r="4" fill="#7b1fa2"/>
+                        <circle cx="70" cy="70" r="4" fill="#7b1fa2"/>
+                        <line x1="50" y1="50" x2="30" y2="30" stroke="#7b1fa2" stroke-width="1"/>
+                        <line x1="50" y1="50" x2="70" y2="30" stroke="#7b1fa2" stroke-width="1"/>
+                    </svg>
+                    <h3>Collaborative</h3>
+                    <p>Teamwork and knowledge sharing drive our success across all departments</p>
+                </div>
+                <div class="feature-card">
+                    <svg viewBox="0 0 100 100" class="feature-icon" style="width: 80px; height: 80px;">
+                        <rect width="100" height="100" rx="20" fill="#e8f5e9"/>
+                        <path d="M50 30 L60 45 L75 45 L65 55 L70 70 L50 60 L30 70 L35 55 L25 45 L40 45 Z" fill="#2e7d32"/>
+                    </svg>
+                    <h3>Quality Focused</h3>
+                    <p>Excellence in everything we deliver to our clients and end users</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Join Our Team</h2>
+            <p>We're always looking for talented professionals to join Zhigao Fanke</p>
+            <a href="contact.html" class="btn btn-large">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Beijing Zhigao Fanke Trading Co., Ltd. is a leading technology team providing mobile applications and game services to users worldwide.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><strong>Business:</strong> xuzhaoliang@zhigaotech.com</p>
+                <p><strong>Support:</strong> support@zhigaotech.com</p>
+                <p><strong>Website:</strong> www.zhigaotech.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Beijing Zhigao Fanke Trading Co., Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

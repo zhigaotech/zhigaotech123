@@ -1,0 +1,23 @@
+# robots.txt
+# SEO Configuration for search engines
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (in seconds)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://www.zhigaotech.com/sitemap.xml
